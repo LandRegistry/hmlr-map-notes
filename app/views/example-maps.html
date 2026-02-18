@@ -1,0 +1,35 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="Home" %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-l">
+      Example maps
+    </h1>
+
+    <h2 class="govuk-heading-m">Basic example</h2>
+    <pre>
+{% raw %} 
+{{ hmlrMap({
+  alt: "Map of Plymouth",
+  caption: "Example map with default settings"
+}) }} 
+{% endraw %} 
+    </pre>
+
+    {{ hmlrMap({
+		  alt: "Map of Plymouth",
+		  caption: "Example map with default settings"
+		}) }}
+
+
+
+
+  </div>
+</div>
+
+{% endblock %}

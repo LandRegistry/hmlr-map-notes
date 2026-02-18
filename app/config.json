@@ -1,0 +1,9 @@
+{
+  "serviceName": "prototype map component exploration",
+  "useServiceNavigation": true,
+  "plugins": {
+    "govuk-frontend": {
+      "rebrand": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="About the map component" %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-l">
+      About this component and our philosophy
+    </h1>
+
+    <p class="govuk-body">
+     	We have lots of use cases for maps.  We want to be able to rapidly prototype, static and interactive material and protoypes for working with others to think about the design of our services, and to use with users to explore and test ideas.
+    </p>
+
+    <p class="govuk-body">
+     	We want all designers to be able to ideate and make protoypes as easily as with the existing GOV.UK design system components - copy and paste a few lines of nunjucks, and add some configuration information.
+    </p>
+
+     <p class="govuk-body">
+     	Maps are clearly complicated components, so there are lots of ways a map can be configured, for example size, zoom level, base layer, colour scheme, map layers, interactivity with keyboard, mouse, touch.  So while its now as easy to get a basic map in a prototype as a radio group, there are many configuration parameters.
+    </p>
+
+    <p class="govuk-body">
+     	We looked around government for any map prototyping components - in any form, completed or in development.  We couldn't find anything that was as easy to use in a gov prototype as existing GOV.UK design system compments.  They all required particular infrastructure to be be used.  They couldnt just be dropped into the Gov protoyping kit.
+    </p>
+
+    <p class="govuk-body">
+     	We are working in the open - <a href="https://www.gov.uk/guidance/government-design-principles#make-things-open-it-makes-things-better">make things open it makes things better</a> - publishing the component in the open and collaborating across government to share what we have started and see how the government design community might want to take this forward
+    </p>
+
+     <p class="govuk-body">
+     	What we are considering next?  We intend to use this ourselves and iterate it, and get feedback from others in goverment. We may add features or strip back this component - for example, maybe its better to have 2 or 3 map components, as the use cases for maps are broad.  We also are thinking about complimentary components, such as map controls 
+    </p>
+
+     <p class="govuk-body">
+     	The component is for prototyping only.  The code is not in use in a real service and has not been written and tested to software development standards.
+    </p>
+
+  </div>
+</div>
+
+{% endblock %}
