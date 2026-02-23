@@ -14,12 +14,12 @@
     <h2 class="govuk-heading-m">Basic example</h2>
     <pre>
 {% raw %} 
-    {{ hmlrMap({
-      alt: "Map of Plymouth",
-      caption: "Example map with default settings"
-    }) }} 
-    {% endraw %} 
-    </pre>
+{{ hmlrMap({
+  alt: "Map of Plymouth",
+  caption: "Example map with default settings"
+}) }} 
+{% endraw %} 
+  </pre>
 
 
     {{ hmlrMap({
@@ -27,7 +27,7 @@
 		  caption: "Example map with default settings"
 		}) }}
 
-<h2 class="govuk-heading-m">Custom size and location</h2>
+<h2 class="govuk-heading-m govuk-!-padding-top-6">Custom size and location</h2>
 <pre>
 {% raw %} 
 {{ hmlrMap({
@@ -52,7 +52,7 @@
 
 
 
-<h2 class="govuk-heading-m">Loading external geoJSON</h2>
+<h2 class="govuk-heading-m govuk-!-padding-top-6">Loading external geoJSON</h2>
 <pre>
 {% raw %} 
 {{ hmlrMap({
@@ -74,7 +74,7 @@
 }) }}
 
 
-<h2 class="govuk-heading-m">Custom styling</h2>
+<h2 class="govuk-heading-m govuk-!-padding-top-6">Custom styling</h2>
 <pre>
 {% raw %} 
 {{ hmlrMap({
@@ -120,7 +120,7 @@
 }) }}
 
 
-<h2 class="govuk-heading-m">Selecting a single feature using geometry_index</h2>
+<h2 class="govuk-heading-m govuk-!-padding-top-6">Selecting a single feature using geometry_index</h2>
 <pre>
 {% raw %} 
 {{ hmlrMap({
@@ -148,7 +148,7 @@
 }) }}
 
 
-<h2 class="govuk-heading-m">Interactive hidden geometry</h2>
+<h2 class="govuk-heading-m govuk-!-padding-top-6">Interactive hidden geometry</h2>
 <pre>
 {% raw %} 
 {{ hmlrMap({
@@ -181,64 +181,64 @@
 
 
 
-<h2 class="govuk-heading-m">Multiple layers with custom map tile and layer controls</h2>
+<h2 class="govuk-heading-m govuk-!-padding-top-3">Multiple layers with custom map tile and layer controls</h2>
 <pre>
 {% raw %} 
 {{ hmlrMap({
-      alt: "Demo geojson from INSPIRE",
-      caption: "Example of layered boundaries with controls and custom map tiles",
-      layer_controls: "true",
-      layers:[
-        {
-          path_to_geometry: "/public/data/liskeard_overlaps.geojson",
-          description:"INSPIRE data",
-          interactive: "true",
-          style: {
-            fill: {
-              color: "#4c2c9222"
-            },
-            stroke: {
-              color: "#4c2c9211",
-              width: 0.5
-            }
-          }
+  alt: "Demo geojson from INSPIRE",
+  caption: "Example of layered boundaries with controls and custom map tiles",
+  layer_controls: "true",
+  layers:[
+    {
+      path_to_geometry: "/public/data/liskeard_overlaps.geojson",
+      description:"INSPIRE data",
+      interactive: "true",
+      style: {
+        fill: {
+          color: "#4c2c9222"
         },
-        {
-          path_to_geometry: "/public/data/layer1.geojson",
-          interactive: "true",
-          style: {
-            fill: {
-              color: "#d4351c01"
-            },
-            stroke: {
-              color: "#d4351c",
-              width: 2
-            }
-          }
-        },
-        {
-          path_to_geometry: "/public/data/layer2.geojson",
-          description:"Custom description",
-          interactive: "true",
-          style: {
-            fill: {
-              color: "#00703c11"
-            },
-            stroke: {
-              color: "#00703c",
-              width: 2
-            }
-          }
-        },
-        {
-          path_to_geometry: "/public/data/layer3.geojson",
-          description:"Blue boundary",
-          style: "BLUE"
+        stroke: {
+          color: "#4c2c9211",
+          width: 0.5
         }
-      ],
-      zoom: 14.5,
-      tile_url: 'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'
-    }) }}
+      }
+    },
+    {
+      path_to_geometry: "/public/data/layer1.geojson",
+      interactive: "true",
+      style: {
+        fill: {
+          color: "#d4351c01"
+        },
+        stroke: {
+          color: "#d4351c",
+          width: 2
+        }
+      }
+    },
+    {
+      path_to_geometry: "/public/data/layer2.geojson",
+      description:"Custom description",
+      interactive: "true",
+      style: {
+        fill: {
+          color: "#00703c11"
+        },
+        stroke: {
+          color: "#00703c",
+          width: 2
+        }
+      }
+    },
+    {
+      path_to_geometry: "/public/data/layer3.geojson",
+      description:"Blue boundary",
+      style: "BLUE"
+    }
+  ],
+  zoom: 14.5,
+  tile_url: 'https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'
+}) }}
 {% endraw %} 
 </pre>
 
@@ -299,7 +299,7 @@
     }) }}
 
 
-<h2 class="govuk-heading-m">Experimental hatched fill</h2>
+<h2 class="govuk-heading-m govuk-!-padding-top-3">Experimental hatched fill</h2>
 <pre>
 {% raw %} 
 {{ hmlrMap({
