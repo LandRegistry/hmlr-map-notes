@@ -1,0 +1,381 @@
+{% extends "layouts/main.html" %}
+
+{% set pageName="Guidance for using maps" %}
+
+{% block content %}
+
+
+
+<div class="govuk-grid-row">
+
+  <!-- Page nav / sidebar -->
+  <div class="govuk-grid-column-one-quarter">
+    <nav class="govuk-!-margin-bottom-6" aria-label="Page navigation">
+      <h2 class="govuk-heading-s">Contents</h2>
+      <ul class="govuk-list govuk-list--spaced govuk-body-s">
+        <li><a class="govuk-link" href="#who-is-this-guidance-for">Who is this guidance for</a></li>
+        <li><a class="govuk-link" href="#when-should-a-map-be-used">When should a map be used?</a></li>
+        <li><a class="govuk-link" href="#when-to-use-a-map">When to use a map</a></li>
+        <li><a class="govuk-link" href="#when-using-a-map">When using a map</a></li>
+        <li><a class="govuk-link" href="#choosing-a-map-provider">Choosing a map provider</a></li>
+        <li><a class="govuk-link" href="#how-are-maps-used">How are maps used in Land Registration</a></li>
+        <li><a class="govuk-link" href="#services-and-products">Services and products using maps</a></li>
+        <li><a class="govuk-link" href="#techniques">Techniques to make maps easier to use</a></li>
+        <li><a class="govuk-link" href="#where-to-get-help">Where to get more help</a></li>
+        <li><a class="govuk-link" href="#help-us-improve">Help us improve this guide</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Main content -->
+  <div class="govuk-grid-column-three-quarters">
+
+    <h1 class="govuk-heading-xl">When and how to use maps in your service</h1>
+
+    <p class="govuk-body-l">Guidance to help you use maps within your service</p>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- Who is this guidance for -->
+    <section id="who-is-this-guidance-for">
+      <h2 class="govuk-heading-l">Who is this guidance for</h2>
+
+      <div class="govuk-warning-text">
+        <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+        <strong class="govuk-warning-text__text">
+          <span class="govuk-visually-hidden">Warning</span>
+          This is preliminary guidance.
+        </strong>
+      </div>
+
+      <p class="govuk-body">It is based on the Government service standard and design principles, guides other Government departments have written, and information provided by HMLR service teams. If you use maps in your service, or are considering it, you should tell us about your map needs, and get involved in improving this guidance. We need more HMLR teams and people to get involved.</p>
+
+      <p class="govuk-body">This guide is for service teams, and anyone involved in procuring or the use of maps in our services. This guide is to help you consider:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>if a map should be used</li>
+        <li>what to do when using a map</li>
+      </ul>
+
+      <p class="govuk-body">You must research with your users:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>their digital and geospatial literacy</li>
+        <li>how they complete their goal currently; how they use maps, and the difficulties they encounter with them</li>
+      </ul>
+    </section>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- When should a map be used -->
+    <section id="when-should-a-map-be-used">
+      <h2 class="govuk-heading-l">When should a map be used?</h2>
+
+      <p class="govuk-body">Maps are almost always inaccessible to many people. Geospatial literacy is a specialised and acquired skill and skill levels are generally low. Map information and interactivity is complicated.</p>
+
+      <p class="govuk-body">Services should try to avoid a map, and will need to demonstrate:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the alternative way for a user to complete their goal or task</li>
+        <li>how the use of, and complexity of a map has been minimised</li>
+        <li>how have the mapping features provided been made as accessible as possible</li>
+      </ul>
+
+      <p class="govuk-body">The <a class="govuk-link" href="https://www.legislation.gov.uk/uksi/2018/852/regulation/3/made">Accessibility Regulations 2018</a> do not apply to <q>online maps and mapping services, as long as essential information is provided in an accessible digital manner for maps intended for navigational use.</q> So for navigational maps, we need to provide an accessible alternative.</p>
+
+      <p class="govuk-body">For all maps, the aim is to make them as accessible as possible. The function they provide must always be available in another form for people who cannot use a map. The recommended way to do this is to design the alternative to a map first.</p>
+    </section>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- When to use a map -->
+    <section id="when-to-use-a-map">
+      <h2 class="govuk-heading-l">When to use a map</h2>
+
+      <p class="govuk-body">Use a map when:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>there is no alternative. Alternatives need to be explored and documented that they do not exist</li>
+        <li>it is a (progressive) enhancement – that a map makes the task easier for the user, but they can still complete their task without it</li>
+      </ul>
+    </section>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- When using a map -->
+    <section id="when-using-a-map">
+      <h2 class="govuk-heading-l">When using a map</h2>
+
+      <p class="govuk-body">Considerations that must be made when a map is being used:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>what the alternatives to the map are for your users to complete their goal, and how to make these as equitable as possible</li>
+        <li>what features of the map can be provided in an accessible way</li>
+        <li>how to make the map as simple to use as possible</li>
+      </ul>
+
+      <p class="govuk-body">You must test with your users:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>the accessibility and usability of the map</li>
+        <li>the alternatives to the map</li>
+      </ul>
+
+      <p class="govuk-body">To find alternatives to the whole, or parts of the map, and to make them as simple to use as possible, it's recommended that teams document user needs (goals, needs, tasks) and what features of a map are required to fulfil that need.</p>
+    </section>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- Choosing a map provider -->
+    <section id="choosing-a-map-provider">
+      <h2 class="govuk-heading-l">Choosing a map provider</h2>
+
+      <p class="govuk-body">You must consider usability and accessibility when procuring a map tool. (See Techniques to make maps easier to use below)</p>
+    </section>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- How are maps used -->
+    <section id="how-are-maps-used">
+      <h2 class="govuk-heading-l">How are maps used to help users in the context of Land Registration</h2>
+
+      <p class="govuk-body">Some of the reasons HMLR provide a map, or users prefer a map are listed here. Consider ways to meet those needs without relying only on a map, or with particular devices or abilities – such as a mouse, or sight.</p>
+
+      <h3 class="govuk-heading-m">Identifying or confirming a place(s)</h3>
+
+      <p class="govuk-body">Identifying places is often done visually:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>in support of a primary textual description – e.g. it has a postal address</li>
+        <li>as the primary way it is known or recognised – e.g. land to the east of…</li>
+        <li>as the only way it is recognised – e.g. it might be unregistered</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Selecting a place(s) or area(s)</h3>
+
+      <p class="govuk-body">Selecting places is often done with a mouse or touching a screen.</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>to find out more information about this place</li>
+        <li>to perform another action on</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Defining a place or area</h3>
+
+      <p class="govuk-body">Defining an area is often done by drawing with a mouse:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>to find out more information about it</li>
+        <li>to perform another action on</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Comparing places</h3>
+
+      <p class="govuk-body">Comparing places is often done visually:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>to identify the place known to the user amongst many other places</li>
+        <li>to find a suitable place amongst many of the same type – for example a development opportunity</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Identifying an element within a place or area</h3>
+
+      <p class="govuk-body">Identifying features is often done visually:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>to find out if it's within the place they are interested in, or what place it is in – for example a tree</li>
+        <li>to help identify the place, as they recognise its the place by features within it – for example the shape and placement of a building within the extent of the property</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Identifying features where places or areas share a boundary</h3>
+
+      <p class="govuk-body">Identifying features is often done visually:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>to understand where the boundary is, what it is, and whose responsibility it is - for example a fence</li>
+      </ul>
+    </section>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- Services and products using maps -->
+    <section id="services-and-products">
+      <h2 class="govuk-heading-l">Services and products using maps</h2>
+
+      <h3 class="govuk-heading-m">Local Land charges</h3>
+
+      <p class="govuk-body">The search service provides a predetermined boundary to search for local land charges. Where a boundary does not exist, tools are provided to enable users to define their own search area. The use of maps was tested at the Digital Accessibility Centre (DAC). The recommendations were incorporated into the search service and added to this guide. The full details of the report, user research and design thinking is available from the Design system team.</p>
+
+      <p class="govuk-body">The Maintain service uses maps to define and display boundary extents used in the search service. Data is transferred from existing organisation systems and users are familiar with their own GIS in order to import and export map data.</p>
+
+      <p class="govuk-body">The migration helper is a set of tools to refine migrated authority data. It features mapping tools to allow users to accurately define and update charge boundaries.</p>
+
+      <h3 class="govuk-heading-m">Search for land and property</h3>
+
+      <p class="govuk-body">This service uses a map as an alternative way to search for property information.</p>
+
+      <h3 class="govuk-heading-m">Other Services</h3>
+
+      <p class="govuk-body">We also provide a version of the Search LLC map on Portal / Business Gateway for users. There is also a Map search (showing registrations and title numbers) as part of the Portal's information searches.</p>
+    </section>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- Techniques to make maps easier to use -->
+    <section id="techniques">
+      <h2 class="govuk-heading-l">Techniques to make maps easier to use</h2>
+
+      <p class="govuk-body">Usability and accessible alternatives could include:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>using different textual ways of describing a place, perhaps by turning geospatial data into textual data. For example, its area and orientation, in context to something known to the user textually. Another example is using Ordnance Survey API to carry out a reverse look up getting the postcode based on the map coordinates.</li>
+        <li>back and forth interactions between the user and the system to remove places until one remains (refining a search, filtering)</li>
+        <li>providing the data in other semantic data formats such as geoJSON, that can be read by assistive technologies or other machines</li>
+      </ul>
+
+      <p class="govuk-body">Ways to make a map more usable and accessible include:</p>
+
+      <h3 class="govuk-heading-m">Removing features of the map</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>only presenting the features needed by the user for their current task</li>
+        <li>placing map controls outside of the map</li>
+        <li>vector map tiles allow for the layering and styling of map features</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Organising the interactive features in the most usable order</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>have the search and filter tools earlier in the tab order than the map</li>
+        <li>investigate separating map controls into basic and advanced options</li>
+        <li>presenting customised onscreen help, e.g. keyboard controls</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Organising the order of pages in the service and the order of elements on the page</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>don't put the map at the front of your service as the main way to search, when people usually start with another way such as postcode</li>
+        <li>don't make the map the first or primary element on a page when it doesn't have to be – use it in support of information everyone understands, for example use a map after a textual address, not before</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Presenting features in textual form</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>do not use icons, use text labels</li>
+        <li>don't put text in images</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Adding textual descriptions to visually presented elements</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>to describe it</li>
+        <li>to add additional information about it</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Using the correct semantic elements</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>use button HTML tag for 'buttons' not other tags</li>
+        <li>use GOV.UK Design System components instead of custom ones</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Adding additional semantic data to elements</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>metadata such as microdata or microformats</li>
+        <li>using HTML attributes or ARIA attributes</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Presenting features in different colours or shading</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>black and white</li>
+        <li>high colour contrast (aim for WCAG AAA compliance)</li>
+        <li>hatching</li>
+        <li>use or copy schemes developed specifically for this purpose from trusted sources such as Ordnance Survey, but check the use case is the same as yours</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Selecting and deselecting features, or manipulating the map by means other than a mouse or touch</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>keyboard</li>
+        <li>voice</li>
+        <li>by back-and-forth interactions (filtering, or refining a search, or removal of map elements)</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">For mouse and touch</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>ensure that touch targets are large enough</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Make features accessible by keyboard</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>that can be tabbed to</li>
+        <li>are in a logical tab order</li>
+        <li>investigate methods for selecting features or drawing a boundary e.g. using Web Feature Services (WFS) and selecting a feature at the centre of the map</li>
+        <li>common key mappings are arrow keys for panning, =/+ for zoom and enter/space to select (consider including a toggle to show/hide the key controls)</li>
+        <li>some JavaScript libraries handle zoom slightly differently. Most zoom the map when the =/+ key is pressed without the need to use the shift key. (Openlayers does not do this and the functionality would need to be added)</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Other techniques</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>use vector maps not static images</li>
+        <li>removing, or reducing the amount of JavaScript</li>
+        <li>providing the no script version of the map if JavaScript is unavailable to the user</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Use of colour, hatching, colour blindness</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a class="govuk-link" href="https://beacon-dodsworth.co.uk/blog/data-visualisation-and-colour-blindness/">Data visualisation and colour blindness</a></li>
+        <li><a class="govuk-link" href="https://www.ons.gov.uk/census/maps/choropleth/housing/accommodation-type/accommodation-type-3a/flat-maisonette-or-apartment">Office for National Statistics choropleth census maps</a></li>
+        <li><a class="govuk-link" href="https://community.esri.com/t5/esri-training-blog/designing-maps-for-colorblind-readability/ba-p/1139017">ESRI guide to Designing maps for colourblind readability</a></li>
+        <li><a class="govuk-link" href="https://labs.os.uk/public/cvd-zoomstack/">Ordnance Survey maps example where the colour palette can be chosen</a></li>
+      </ul>
+    </section>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- Where to get more help -->
+    <section id="where-to-get-help">
+      <h2 class="govuk-heading-l">Where to get more help on using maps in your service</h2>
+
+      <p class="govuk-body">Speak to teams with maps in their services - for example, Local land charges.</p>
+
+      <h3 class="govuk-heading-m">Collaborate with Government designers on Maps</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>UK Government Digital Slack: maps_in_services channel</li>
+        <li>Cross Government Maps Slack: A community collaboration to develop guidance on designing accessible maps</li>
+      </ul>
+
+      <h3 class="govuk-heading-m">Learn from other Government departments maps guidance</h3>
+      <ul class="govuk-list govuk-list--bullet">
+        <li><a class="govuk-link" href="https://github.com/alphagov/govuk-design-system-backlog/issues/75">GOV.UK Design system backlog: Maps</a></li>
+        <li><a class="govuk-link" href="https://github.com/defra-design/design/wiki/Interactive-maps">DEFRA public wiki page on using interactive maps</a></li>
+        <li><a class="govuk-link" href="https://github.com/DEFRA/design-standards/blob/master/Maps.md">DEFRA Design standards for maps</a></li>
+        <li><a class="govuk-link" href="https://defradigital.blog.gov.uk/2021/05/20/designing-a-more-accessible-flood-map/">DEFRA blogpost, Designing a more accessible flood map</a></li>
+        <li><a class="govuk-link" href="https://digital-land.github.io/design-system/components/map/">Digital Land – Map component</a></li>
+        <li><a class="govuk-link" href="https://designsystem.tfwm.org.uk/styles/maps/">Transport for West Midlands, Map style</a></li>
+      </ul>
+
+      <p class="govuk-body"><a class="govuk-link" href="https://labs.os.uk/pages/index.html">Ordnance Survey Labs</a> contains tools and information for using maps. Of note is the <a class="govuk-link" href="https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit">GeoDataViz Toolkit</a>, containing sections on:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>Using the right basemap</li>
+        <li>Cartographic design principles</li>
+        <li>Using colours</li>
+      </ul>
+    </section>
+
+    <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+    <!-- Help us improve -->
+    <section id="help-us-improve">
+      <h2 class="govuk-heading-l">Help us improve this preliminary guide</h2>
+
+      <p class="govuk-body">This is preliminary guidance, meaning that it is the first guide on this subject. It incorporates things we have learnt from our services, but has not been fully tested, or tested deeply enough in services.</p>
+
+      <p class="govuk-body">This guide could be improved by your feedback about how useful this guide is, for example what aspects of map use:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>need adding to this guide</li>
+        <li>need better explanation</li>
+        <li>where better sources of information exist</li>
+      </ul>
+
+      <p class="govuk-body">This guide could be improved by adding examples of:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>alternatives to maps</li>
+        <li>how to reduce reliance on a map or features used in maps</li>
+        <li>how to make features of maps accessible</li>
+      </ul>
+
+      <p class="govuk-body">This guide could be improved by:</p>
+      <ul class="govuk-list govuk-list--bullet">
+        <li>adding guidance on how to use geospatial information not in a map, for example helping users better understand textual geographical data</li>
+      </ul>
+
+      <p class="govuk-body">If you have feedback on how we can improve this guide, email <a class="govuk-link" href="mailto:hmlr-design-system-support@landregistry.gov.uk">hmlr-design-system-support@landregistry.gov.uk</a>.</p>
+
+      <p class="govuk-body">This guide will change as we learn more about maps. If you have some research, evidence, learning or tips, email <a class="govuk-link" href="mailto:hmlr-design-system-support@landregistry.gov.uk">hmlr-design-system-support@landregistry.gov.uk</a>.</p>
+    </section>
+
+  </div>
+</div>
+
+{% endblock %}

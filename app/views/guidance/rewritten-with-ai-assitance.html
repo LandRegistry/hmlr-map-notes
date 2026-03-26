@@ -1,0 +1,236 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+Using maps in government services
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-xl">
+      Using maps in government services
+    </h1>
+
+    <p class="govuk-body">
+      This is preliminary guidance.
+    </p>
+
+    <p class="govuk-body">
+      It is for service teams designing, building or procuring services that use maps.
+    </p>
+
+    <p class="govuk-body">
+      Use this guidance to help you:
+    </p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>decide if you should use a map</li>
+      <li>design maps so they are usable and as accessible as possible</li>
+      <li>provide alternatives so all users can complete their task</li>
+    </ul>
+
+    <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible">
+
+    <h2 class="govuk-heading-l">Understand your users</h2>
+
+    <p class="govuk-body">
+      Before deciding to use a map, you must research your users.
+    </p>
+
+    <p class="govuk-body">You need to understand:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>their digital skills and geospatial literacy</li>
+      <li>how they currently complete their task</li>
+      <li>whether they already use maps, and how</li>
+      <li>the problems they experience when using maps</li>
+    </ul>
+
+    <p class="govuk-body">
+      Do not assume users understand maps. Geospatial literacy is a specialist skill and is often low.
+    </p>
+
+    <h2 class="govuk-heading-l">Maps and accessibility</h2>
+
+    <p class="govuk-body">
+      Maps are often inaccessible to many users.
+    </p>
+
+    <p class="govuk-body">You must:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>assume some users cannot use a map at all</li>
+      <li>provide an alternative way to complete the task</li>
+      <li>make the map as simple and accessible as possible</li>
+    </ul>
+
+    <div class="govuk-inset-text">
+      The alternative must allow users to complete the same task and be available alongside the map.
+    </div>
+
+    <h2 class="govuk-heading-l">When to use a map</h2>
+
+    <p class="govuk-body">
+      Only use a map if there is a clear user need.
+    </p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>there is no simpler way for users to complete the task</li>
+      <li>it improves understanding of location or space</li>
+      <li>it is an enhancement, not the only way to complete the task</li>
+    </ul>
+
+    <h2 class="govuk-heading-l">When not to use a map</h2>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>as the default starting point for a task</li>
+      <li>when a postcode, address or list would work</li>
+      <li>if it adds complexity without clear benefit</li>
+      <li>if users can complete the task more easily another way</li>
+    </ul>
+
+    <h2 class="govuk-heading-l">Designing services that include maps</h2>
+
+    <h3 class="govuk-heading-m">Provide alternatives</h3>
+
+    <p class="govuk-body">
+      You must always provide a non-map way to complete the task.
+    </p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>search by postcode or address</li>
+      <li>select from a list</li>
+      <li>filter results step by step</li>
+      <li>enter or view coordinates in text form</li>
+    </ul>
+
+    <h3 class="govuk-heading-m">Make maps simple</h3>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>show only the features users need</li>
+      <li>remove unnecessary controls</li>
+      <li>avoid overloading the map</li>
+    </ul>
+
+    <h3 class="govuk-heading-m">Structure the page appropriately</h3>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>show text-based information before the map</li>
+      <li>place search and filters before the map</li>
+      <li>do not make the map the first element unless essential</li>
+    </ul>
+
+    <h3 class="govuk-heading-m">Support different ways of interacting</h3>
+
+    <p class="govuk-body">
+      Users must be able to interact without relying on a mouse, touch or vision.
+    </p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>provide full keyboard support</li>
+      <li>use logical tab order</li>
+      <li>ensure visible focus states</li>
+      <li>label all controls clearly</li>
+    </ul>
+
+    <h3 class="govuk-heading-m">Use clear, accessible content</h3>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>use text labels instead of icons</li>
+      <li>do not put text in images</li>
+      <li>describe map features in text</li>
+    </ul>
+
+    <h3 class="govuk-heading-m">Use colour accessibly</h3>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>do not rely on colour alone</li>
+      <li>use high contrast colours</li>
+      <li>use patterns or hatching where needed</li>
+    </ul>
+
+    <h3 class="govuk-heading-m">Use appropriate technology</h3>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>prefer vector maps over static images</li>
+      <li>minimise reliance on JavaScript</li>
+      <li>provide a fallback where possible</li>
+    </ul>
+
+    <h2 class="govuk-heading-l">Common user needs for maps</h2>
+
+    <h3 class="govuk-heading-m">Identifying a place</h3>
+    <p class="govuk-body">
+      Users may confirm an address, recognise a place visually or identify land without a formal address.
+    </p>
+
+    <h3 class="govuk-heading-m">Selecting a place</h3>
+    <p class="govuk-body">
+      Users may select a location to view information or take an action.
+    </p>
+
+    <h3 class="govuk-heading-m">Defining an area</h3>
+    <p class="govuk-body">
+      Users may draw or define boundaries.
+    </p>
+
+    <h3 class="govuk-heading-m">Comparing places</h3>
+    <p class="govuk-body">
+      Users may compare multiple locations.
+    </p>
+
+    <h3 class="govuk-heading-m">Understanding features and boundaries</h3>
+    <p class="govuk-body">
+      Users may need to identify features or understand boundaries and responsibilities.
+    </p>
+
+    <h2 class="govuk-heading-l">Choosing a map provider</h2>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>accessibility</li>
+      <li>usability</li>
+      <li>customisation options</li>
+      <li>keyboard support</li>
+      <li>performance</li>
+    </ul>
+
+    <h2 class="govuk-heading-l">Testing maps</h2>
+
+    <p class="govuk-body">You must test:</p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>the map interface</li>
+      <li>the non-map alternative</li>
+    </ul>
+
+    <p class="govuk-body">
+      Include users with low digital skills and those using assistive technology.
+    </p>
+
+    <h2 class="govuk-heading-l">Improving map accessibility</h2>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>convert geographic data into text</li>
+      <li>use step-by-step filtering instead of map interaction</li>
+      <li>provide structured data formats such as GeoJSON</li>
+    </ul>
+
+    <h2 class="govuk-heading-l">Help improve this guidance</h2>
+
+    <p class="govuk-body">
+      This is an early version of this guidance. We need examples, research and feedback.
+    </p>
+
+    <p class="govuk-body">
+      Email:
+      <a class="govuk-link" href="mailto:hmlr-design-system-support@landregistry.gov.uk">
+        hmlr-design-system-support@landregistry.gov.uk
+      </a>
+    </p>
+
+  </div>
+</div>
+
+{% endblock %}
